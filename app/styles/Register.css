@@ -1,0 +1,66 @@
+.reg-container {
+  width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(198, 233, 201);
+  border-radius: 10px;
+}
+
+.reg-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+label {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+input {
+  height: 45px;
+  width: 100%;
+  border-radius: 8px;
+  padding-inline: 10px;
+  border: 1px solid teal;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid darkcyan;
+}
+
+.reg-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: teal;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.reg-btn:hover {
+  background-color: darkcyan;
+}
+
+.login-link {
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
